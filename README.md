@@ -37,7 +37,7 @@ You can test both the Deterministic Quicksort and Randomized Quicksort algorithm
 To run the Empirical Analysis and compare the execution times of Deterministic and Randomized Quicksort on different input sizes (100, 1000, 10000, and 50000), run
 The results will include the time taken by both algorithms on random, sorted, and reverse-sorted arrays, as well as the first 10 elements of the sorted arrays for reference.
 
-### Summary of Findings
+## Summary of Findings
 Deterministic Quicksort
 Time Complexity:
 Best Case: 𝑂(𝑛log𝑛)
@@ -48,7 +48,7 @@ when the pivot results in highly unbalanced partitions (e.g., sorted or reverse-
 Performance: Works well with random input, but can degrade to O(n2) 
 if the input is already sorted or reverse-sorted, leading to unbalanced partitions.
 
-## Randomized Quicksort
+### Randomized Quicksort
 Time Complexity:
 Best Case: O(nlogn)
 Average Case: O(nlogn)
@@ -58,7 +58,7 @@ Worst Case: O(n2)
 Performance: Random pivot selection helps avoid the worst-case O(n2) 
 scenario and ensures more balanced partitions. The expected time complexity remains O(nlogn) for most inputs.
 
-## Empirical Comparison
+### Empirical Comparison
 The empirical analysis tests both Quicksort algorithms on three types of input distributions:
 
 Random arrays (elements are randomly shuffled)
